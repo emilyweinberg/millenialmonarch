@@ -46,30 +46,7 @@
 	
 	</p> </script>
 <h2>Find opportunities near you!</h2>
-<z>Allow Millenial Monarch to access your location:</z>
 
-<button onclick="getLocation()">Location</button>
-
-<p id="demo"></p>
-
-<script>
-var x = document.getElementById("demo");
-
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } else { 
-    x.innerHTML = "Geolocation is not supported by this browser.";
-  }
-}
-
-function showPosition(position) {
-  x.innerHTML = "Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;
-}
-</script>
-
-	</p>
 </body>
 </html>
 
