@@ -1,0 +1,42 @@
+/* style that applies to every single HTML tag */
+* {
+	font-family:Times New Roman;
+}
+h1 {
+	text-align: center;
+}
+/* style the body tag, which has everything inside itself */
+body {
+}
+/* style your header 1's */
+h1 { text-align: center;
+}
+/* style your header 2's */
+h2 {text-align: center;
+}
+/* style your paragraphs */
+p {
+}
+/* style the elements in your list */
+li {
+}
+/* style the class "highlight" */
+#butter{
+	width:500;
+}
+.highlight {
+}
+/* style the element with id "unique-text" */
+#unique-text {
+}
+
+/* 
+NOTE:
+color palette from 
+http://www.color-hex.com/color-palette/5452 
+
+
+I guess http://www.color-hex.com/ is a cool website. 
+You can also check out https://colourco.de/ to generate your own
+color palette.
+*/
